@@ -1,0 +1,32 @@
+#navbar-img {
+    display: inline-block;
+    height: 25px;
+}
+
+.navbar-brand {
+    margin-left: 20% !important;
+}
+
+li {
+    font-size: large;
+}
+
+.panel-primary {
+    border-color: red;
+}
+
+.panel-heading {
+    font-size: x-large; 
+    background-color: darkred !important;
+    border-color: red !important;
+}
+
+.btn {
+    color: white;
+    background-color: darkred !important;
+    border-color: red !important;
+}
+
+th {
+    color: darkred;
+}

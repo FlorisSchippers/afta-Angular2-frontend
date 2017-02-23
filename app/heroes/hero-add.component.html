@@ -1,0 +1,40 @@
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        {{ pageTitle }}
+    </div>
+
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-2'>
+                <label for='name'>Name:</label><br>
+                <label for='type'>Type:</label><br>
+                <label for='attribute'>Attribute:</label><br>
+                <label for='rank'>Rank:</label><br>
+                <label for='image'>Image:</label><br>
+                <button class='btn btn-primary' (click)='addNewHero()'>Add new hero</button>
+            </div>
+            <div class='col-md-10'>
+                <input type='text' id='name' [(ngModel)]='name'><br>
+                <select type='text' id='type' [(ngModel)]='type'>
+                    <option value=''></option>
+                    <option value='Melee'>Melee</option>
+                    <option value='Ranged'>Ranged</option>
+                </select><br>
+                <select type='text' id='attribute' [(ngModel)]='attribute'>
+                    <option value=''></option>
+                    <option value='Strength'>Strength</option>
+                    <option value='Agility'>Agility</option>
+                    <option value='Intelligence'>Intelligence</option>
+                </select><br>
+                <input type='number' id='rank' [(ngModel)]='rank'> (double with max of 5.0)<br>
+                <input type='text' id='image' [(ngModel)]='image'> (link to hosted image)<br>
+                <p style='margin-top: 15px; margin-bottom: 0px' *ngIf='added'>{{ added }}</p>
+            </div>
+        </div>
+    </div>
+    <div class='panel-footer'>
+        <button class='btn btn-default' (click)='onBack()'>
+            <i class='glyphicon glyphicon-chevron-left'></i> Back
+        </button>
+    </div>
+</div>

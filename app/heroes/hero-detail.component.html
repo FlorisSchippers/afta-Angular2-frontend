@@ -1,0 +1,46 @@
+<div class='panel panel-primary' *ngIf='hero'>
+    <div class='panel-heading'>
+        {{ pageTitle + ': ' + hero.name }}
+    </div>
+
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-6'>
+                <div class='row'>
+                    <div class='col-md-3'>Name:</div>
+                    <div class='co-md-6'>{{ hero.name }}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Type:</div>
+                    <div class='co-md-6'>{{ hero.type }}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Attribute:</div>
+                    <div class='co-md-6'>{{ hero.attribute }}</div>
+                </div>
+                <div class='row'>   
+                    <div class='col-md-3'>Rank:</div>
+                    <div class='co-md-6'><ai-star [rating]='hero.rank'></ai-star></div>
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <img class='center-block img-responsive' 
+                     [style.width.px]='200' 
+                     [style.margin.px]='2' 
+                     [src]='hero.image'
+                     [title]='hero.name'>
+            </div>
+            <div class='col-md-2'>
+                <button class='btn btn-primary' style='margin: 5px' (click)='editHero()'>Edit hero</button>
+                <button class='btn btn-primary' (click)='deleteHero()'>Delete hero</button>
+                <p style='margin-top: 15px; margin-left: 20px; margin-bottom: 0px' *ngIf='deleted'>{{ deleted }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class='panel-footer'>
+        <button class='btn btn-default' (click)='onBack()'>
+            <i class='glyphicon glyphicon-chevron-left'></i> Back
+        </button>
+    </div>
+</div>

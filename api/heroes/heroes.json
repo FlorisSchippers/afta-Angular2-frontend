@@ -1,0 +1,104 @@
+[
+  {
+    "_id": "584965fa417ba622a8dfb594",
+    "name": "Rubick",
+    "type": "Ranged",
+    "attribute": "Intelligence",
+    "rank": 5.0,
+    "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/3/37/Rubick.png/110px-Rubick.png?version=e07bb21bae95795bf26f863d9ae373df",
+    "__v": 0,
+    "_links": {
+      "self": {
+        "href": "http://localhost:8000/afta/heroes/584965fa417ba622a8dfb594"
+      },
+      "collection": {
+        "href": "http://localhost:8000/afta/heroes/"
+      }
+    }
+  },
+  {
+    "_id": "5849660b417ba622a8dfb595",
+    "name": "Shadow Fiend",
+    "type": "Ranged",
+    "attribute": "Agility",
+    "rank": 3.2,
+    "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/7/71/Shadow_Fiend.png/110px-Shadow_Fiend.png?version=0494746291f02562759e2e38f4129785",
+    "__v": 0,
+    "_links": {
+      "self": {
+        "href": "http://localhost:8000/afta/heroes/5849660b417ba622a8dfb595"
+      },
+      "collection": {
+        "href": "http://localhost:8000/afta/heroes/"
+      }
+    }
+  },
+  {
+    "_id": "58496616417ba622a8dfb596",
+    "name": "Kunkka",
+    "type": "Melee",
+    "attribute": "Strength",
+    "rank": 4.5,
+    "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/8/89/Kunkka.png/110px-Kunkka.png?version=c1841992d579b7e47b3eac9500300aac",
+    "__v": 0,
+    "_links": {
+      "self": {
+        "href": "http://localhost:8000/afta/heroes/58496616417ba622a8dfb596"
+      },
+      "collection": {
+        "href": "http://localhost:8000/afta/heroes/"
+      }
+    }
+  },
+  {
+    "_id": "584afe73df15c02684c51cd4",
+    "name": "Ogre Magi",
+    "type": "Melee",
+    "attribute": "Intelligence",
+    "rank": 4.0,
+    "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/a/ae/Ogre_Magi.png/110px-Ogre_Magi.png?version=6dddea8dfb099f17fd14187d37c5697d",
+    "__v": 0,
+    "_links": {
+      "self": {
+        "href": "http://localhost:8000/afta/heroes/584afe73df15c02684c51cd4"
+      },
+      "collection": {
+        "href": "http://localhost:8000/afta/heroes/"
+      }
+    }
+  },
+  {
+    "_id": "584b012e9755011f787eb2e0",
+    "name": "Monkey King",
+    "type": "Melee",
+    "attribute": "Agility",
+    "rank": 4.7,
+    "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/f/f4/Monkey_King.png/110px-Monkey_King.png?version=27203c12c19edab7164f2d265bf77d9f",
+    "__v": 0,
+    "_links": {
+      "self": {
+        "href": "http://localhost:8000/afta/heroes/584b012e9755011f787eb2e0"
+      },
+      "collection": {
+        "href": "http://localhost:8000/afta/heroes/"
+      }
+    }
+  },
+  {
+    "_id": "584b01389755011f787eb2e1",
+    "name": "Io",
+    "type": "Ranged",
+    "attribute": "Strength",
+    "rank": 1.5,
+    "image": "https://hydra-media.cursecdn.com/dota2.gamepedia.com/thumb/9/94/Io.png/110px-Io.png?version=5ee1d391ea26ef0b09ece783dd04ec93",
+    "__v": 0,
+    "_links": {
+      "self": {
+        "href": "http://localhost:8000/afta/heroes/584b01389755011f787eb2e1"
+      },
+      "collection": {
+        "href": "http://localhost:8000/afta/heroes/"
+      }
+    }
+  }
+]
